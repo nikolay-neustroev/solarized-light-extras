@@ -12,9 +12,13 @@ Github. I didn't build the dark versions of these themes because I find them pai
 ## What's included
 
 * Solarized Light IntelliJ theme
+  ![Solarized Light IntelliJ Preview](./images/solarized-light-intellij.png)
 * Selenized Light IntelliJ theme
+  ![Selenized Light IntelliJ Preview](./images/selenized-light-intellij.png)
 * Solarized Light Github theme
+  ![Solarized Light Github Preview](./images/solarized-light-github.png)
 * Selenized Light Github theme
+  ![Selenized Light Github Preview](./images/selenized-light-github.png)
 
 ## Supported languages
 

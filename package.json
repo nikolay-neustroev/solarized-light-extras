@@ -3,8 +3,14 @@
   "displayName": "Solarized Light Extras",
   "description": "A collection of themes combining Solarized and Selenized light color palettes with IntelliJ and Github syntax highlighting",
   "version": "0.0.1",
+  "publisher": "NikolayNeustroev",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.107.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolay-neustroev/solarized-light-extras"
   },
   "categories": [
     "Themes"
@@ -12,7 +18,6 @@
   "keywords": [
     "theme",
     "light",
-    "dark",
     "solarized",
     "selenized"
   ],
@@ -41,10 +46,12 @@
 
     ]
   },
+  "devDependencies": {
+    "vsce": "^1.100.1"
+  },
   "scripts": {
-    "package": "mkdir -p build && vsce package -o ./build/github-vscode-theme.vsix",
-    "prepublishOnly": "npm run build && vsce publish",
-    "release": "changeset publish"
+    "package": "mkdir -p build && vsce package -o ./build/solarized-light-extras-vscode-theme.vsix",
+    "release": "vsce publish"
   }
 
 }
