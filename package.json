@@ -1,0 +1,50 @@
+{
+  "name": "solarized-light-extras",
+  "displayName": "Solarized Light Extras",
+  "description": "A collection of themes combining Solarized and Selenized light color palettes with IntelliJ and Github syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "solarized",
+    "selenized"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Selenized Light IntelliJ",
+        "uiTheme": "vs",
+        "path": "./themes/selenized-light-intellij-color-theme.json"
+      },
+      {
+        "label": "Solarized Light IntelliJ",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-intellij-color-theme.json"
+      },
+      {
+        "label": "Selenized Light Github",
+        "uiTheme": "vs",
+        "path": "./themes/selenized-light-github-color-theme.json"
+      },
+      {
+        "label": "Solarized Light Github",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-github-color-theme.json"
+      }
+
+    ]
+  },
+  "scripts": {
+    "package": "mkdir -p build && vsce package -o ./build/github-vscode-theme.vsix",
+    "prepublishOnly": "npm run build && vsce publish",
+    "release": "changeset publish"
+  }
+
+}
