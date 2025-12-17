@@ -2,7 +2,7 @@
   "name": "solarized-light-extras",
   "displayName": "Solarized Light Extras",
   "description": "A collection of themes combining Solarized and Selenized light color palettes with IntelliJ and Github syntax highlighting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "NikolayNeustroev",
   "license": "MIT",
   "engines": {
