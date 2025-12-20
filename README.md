@@ -1,4 +1,5 @@
-# solarized-light-extras theme
+# solarized-light-extras theme pack
+A fork of the default Solarized Light and custom Selenized Light(https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-better-solarized-dark-theme) themes with code highlighting from IntelliJ and Github
 
 ## Motivation
 
