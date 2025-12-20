@@ -2,7 +2,7 @@
   "name": "solarized-light-extras",
   "displayName": "Solarized Light Extras",
   "description": "A fork of the default Solarized Light and custom Selenized Light(https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-better-solarized-dark-theme) themes with code highlighting from IntelliJ and Github",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "NikolayNeustroev",
   "license": "MIT",
   "engines": {
